@@ -2,7 +2,7 @@
 
 # Check Run-Time Por
 if ($uid != 0 ) then
-	echo "Cannot Running with non-root user por!"
+	echo "Cannot Running under non-root user por!"
 	echo "You can enter sudo ./config_wifi.sh.Try it again"
 	exit 1
 endif
